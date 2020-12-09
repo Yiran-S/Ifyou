@@ -1,18 +1,11 @@
 Package: Ifyou
 Type: Package
-Title: What the Package Does (Title Case)
+Title: First R Package
 Version: 0.1.0
 Author: MAE
 Maintainer: Yiran Sun <yiran8sun@g.ucla.edu>
-Description: The package mainly includes the function that I used in MAE in 2020 Fall quarter. 
-
-The "gene_APOD", "NBAData" and "fred_series" are mainly the API I used for 441 Applied Data Management for Economists.
-
-The "decp_plot" solves th problem we meet in the project1 for Class 430 Applied Statistics, Econometrics, and Time Series with R and Python, 
-when we need to describe all descriptive summary for lots of variables. 
-
-The "irf_plot" helps plot impulse response function in 4 separate graphs.
-License: What license is it under?
+Description: The package mainly includes the function that I used in MAE in 2020 Fall quarter. The "gene_APOD", "NBAData" and "fred_series" are mainly the API I used for 441 Applied Data Management for Economists. The "decp_plot" solves th problem we meet in the project1 for Class 430 Applied Statistics, Econometrics, and Time Series with R and Python, when we need to describe all descriptive summary for lots of variables. The "irf_plot" helps plot impulse response function in 4 separate graphs.
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports: 

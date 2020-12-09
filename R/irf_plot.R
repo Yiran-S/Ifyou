@@ -11,7 +11,7 @@
 #' @examples irf_plot(model,36)
 #'
 irf_plot <- function(y_model,k){
-  value <- irf(y_model,n.ahead=k)
+  value <- vars::irf(y_model,n.ahead=k)
 
   Shock.1 <- value$irf[1][[1]]
   Shock.1.LB <- value$Lower[1][[1]]

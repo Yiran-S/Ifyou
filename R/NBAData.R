@@ -7,17 +7,17 @@
 #'
 #'
 
-NBA_Center <- read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="Center",col_names=TRUE)
+NBA_Center <- readxl::read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="Center",col_names=TRUE)
 usethis::use_data(NBA_Center, overwrite = TRUE)
 
-NBA_PG <- read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="PointGuard",col_names=TRUE)
+NBA_PG <- readxl::read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="PointGuard",col_names=TRUE)
 usethis::use_data(NBA_PG, overwrite = TRUE)
 
-NBA_SG <- read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="ShootingGuard",col_names=TRUE)
+NBA_SG <- readxl::read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="ShootingGuard",col_names=TRUE)
 usethis::use_data(NBA_SG, overwrite = TRUE)
 
-NBA_SF <- read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="SmallForward",col_names=TRUE)
+NBA_SF <- readxl::read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="SmallForward",col_names=TRUE)
 usethis::use_data(NBA_SF, overwrite = TRUE)
 
-NBA_PF <- read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="PowerForward",col_names=TRUE)
+NBA_PF <- readxl::read_xlsx("NBAStatByPos_YiranSun.xlsx",sheet="PowerForward",col_names=TRUE)
 usethis::use_data(NBA_PF, overwrite = TRUE)

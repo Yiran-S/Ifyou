@@ -23,7 +23,7 @@ fred_get_series <- function(APIkey, series_id, observation_start){
     sep = "")
   PATH = paste0(URL, parameters)
 
-  initialquery = fromJSON(PATH)
+  initialquery = jsonlite::fromJSON(PATH)
   df = initialquery$observations
   rownames(df) <- df$date
 
